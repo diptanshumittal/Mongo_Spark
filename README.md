@@ -5,5 +5,6 @@ All the keys and values in the document are stored in the form of a string.
 For MongoDB, a mongo-spark-connector to connect spark with the database and send the query in the form of a pipeline to the database engine. Results were loaded into a data frame.
 
 File1.py - Loads the database from MongoDB database and into the spark dataframe and queries the dataframe using pysparl.sql.functions. 
+
 File2.py - Sends NoSQL queries to MongoDB engine from the spark session and load result into a dataframe.
 
